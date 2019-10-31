@@ -48,11 +48,31 @@ margin-top: 50px;
 	margin: 62px;
 }
 
+.button{
+    display: inline-block;
+    text-decoration:none;
+    padding:6px 4px;
+}
 
 .btn-block {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 161px;
+    vertical-align: middle;
 }
+
+.btn-block1 {
+    display: inline-block;
+    width: 98%;
+    vertical-align: middle;
+}
+
+.text-center1 {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 15px;
+} 
+
 .btn-group-lg>.btn, .btn-lg {
     padding: 10px 16px;
     font-size: 18px;
@@ -87,7 +107,7 @@ margin-top: 50px;
     text-align: center;
     position: relative;
     top: 15px;
-    left: 15px;
+    left: 10px;
 } 
 
 h1{
@@ -152,7 +172,7 @@ input {
  
 /*estilo dos input,  menos o checkbox */
 input:not([type="checkbox"]){
-  width: 95%;
+  width: 94%;
   margin-top: 4px;
   padding: 10px;    
   border: 1px solid #b2b2b2;
